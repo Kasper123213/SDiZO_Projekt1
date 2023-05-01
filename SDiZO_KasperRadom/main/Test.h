@@ -1,6 +1,3 @@
-//
-// Created by radom on 24.03.2023.
-//
 
 #ifndef SDIZO_KASPERRADOM_TEST_H
 #define SDIZO_KASPERRADOM_TEST_H
