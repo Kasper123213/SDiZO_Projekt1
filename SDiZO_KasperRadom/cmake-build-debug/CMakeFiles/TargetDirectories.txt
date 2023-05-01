@@ -1,0 +1,3 @@
+C:/Users/radom/OneDrive/Pulpit/SDiZO/SDiZO_KasperRadom/cmake-build-debug/CMakeFiles/SDiZO_KasperRadom.dir
+C:/Users/radom/OneDrive/Pulpit/SDiZO/SDiZO_KasperRadom/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/radom/OneDrive/Pulpit/SDiZO/SDiZO_KasperRadom/cmake-build-debug/CMakeFiles/rebuild_cache.dir
