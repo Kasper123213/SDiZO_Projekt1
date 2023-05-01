@@ -1,6 +1,3 @@
-//
-// Created by radom on 08.04.2023.
-//
 
 #ifndef SDIZO_KASPERRADOM_KOPIECBINARNY_H
 #define SDIZO_KASPERRADOM_KOPIECBINARNY_H
