@@ -1,6 +1,3 @@
-//
-// Created by radom on 28.03.2023.
-//
 
 #ifndef SDIZO_KASPERRADOM_LISTA_H
 #define SDIZO_KASPERRADOM_LISTA_H
