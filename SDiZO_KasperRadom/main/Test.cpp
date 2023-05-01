@@ -1,6 +1,3 @@
-//
-// Created by radom on 24.03.2023.
-//
 
 #include <iostream>
 #include <fstream>
