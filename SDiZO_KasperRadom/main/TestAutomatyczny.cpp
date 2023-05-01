@@ -1,7 +1,4 @@
-//
-// Created by radom on 24.04.2023.
-//
-//pierwsze polmiery 10 100 1000 10000 100000
+
 #include <fstream>
 #include <cmath>
 #include <cstdlib>
