@@ -1,6 +1,5 @@
 
 #include <fstream>
-#include <cmath>
 #include <cstdlib>
 #include <ctime>
 #include "TestAutomatyczny.h"
@@ -201,12 +200,11 @@ void TestAutomatyczny::testTablicy() {
 
 
         for (int j = 0; j < 50000; j++) {
-            tablica->dodawanieNaPoczatek(0);
+            tablica->dodawanieNaPoczatek(rand() % 100);
         }
-        tablica->dodawanieNaPoczatek(55);
 
         czas.czasStart();
-        tablica->wyszukajElement(55);
+        tablica->wyszukajElement(-1);
         czas.czasStop();
 
         wynik[i] = czas.czasWykonania();
@@ -318,7 +316,7 @@ void TestAutomatyczny::testListy() {
 
 
         for (int j = 0; j < 50000 + 1; j++) {
-            lista->dodawanieNaPoczatek(0);
+            lista->dodawanieNaPoczatek(rand() % 100);
         }
 
         czas.czasStart();
@@ -342,7 +340,7 @@ void TestAutomatyczny::testListy() {
 
 
         for (int j = 0; j < 50000 + 1; j++) {
-            lista->dodawanieNaPoczatek(0);
+            lista->dodawanieNaPoczatek(rand() % 100);
         }
 
         czas.czasStart();
@@ -369,7 +367,7 @@ void TestAutomatyczny::testListy() {
 
 
         for (int j = 0; j < 50000 + 1; j++) {
-            lista->dodawanieNaPoczatek(0);
+            lista->dodawanieNaPoczatek(rand() % 100);
         }
 
         czas.czasStart();
@@ -398,12 +396,11 @@ void TestAutomatyczny::testListy() {
 
 
         for (int j = 0; j < 50000; j++) {
-            lista->dodawanieNaPoczatek(0);
+            lista->dodawanieNaPoczatek(rand() % 100);
         }
-        lista->dodawanieNaPoczatek(55);
 
         czas.czasStart();
-        lista->wyszukajElement(55);
+        lista->wyszukajElement(-1);
         czas.czasStop();
 
         wynik[i] = czas.czasWykonania();
@@ -488,9 +485,8 @@ void TestAutomatyczny::testKopca() {
         for (int j = 0; j < 50000 - 1; j++) {
             kopiecBinarny->dodaj(rand() % 100);
         }
-        kopiecBinarny->dodaj(11);
         czas.czasStart();
-        kopiecBinarny->czyIstnieje(11);
+        kopiecBinarny->czyIstnieje(-1);
         czas.czasStop();
 
         wynik[i] = czas.czasWykonania();
