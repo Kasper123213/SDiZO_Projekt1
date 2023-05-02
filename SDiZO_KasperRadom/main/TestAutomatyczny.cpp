@@ -385,7 +385,7 @@ void TestAutomatyczny::testListy() {
 
     delete lista;
     lista = new Lista;
-    wpiszCzas(wynik, "Lista_usuwanie_K");
+    wpiszCzas(wynik, "Lista_usuwanie_I");
 
 
 
